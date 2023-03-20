@@ -8,6 +8,6 @@ async function generateJoke(){
         headers: {Accept: 'application/json',},
     })
 
-    const = data = await res.json()
+    const data = await res.json()
     jokeE1.innerHTML = data.joke
 }
