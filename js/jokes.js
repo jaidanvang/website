@@ -1,5 +1,5 @@
 const jokeE1 = document.getElementById('joke')
-const jokebtn = document.getElementById('jokeBtn')
+const jokeBtn = document.getElementById('jokeBtn')
 
 async jokeBtn.addEventListener('click', generateJoke)
 
@@ -9,5 +9,5 @@ ascyn function generateJoke(){
     })
 
     const = data = await res.json()
-    jokeEl.innerHTML = data.joke
+    jokeE1.innerHTML = data.joke
 }
