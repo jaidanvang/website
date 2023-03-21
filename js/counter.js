@@ -1,5 +1,5 @@
 const counters = document.querySelectorAll('.counter')
 
 counters.forEach(counter=> {
-    counter.innerText
+    counter.innerText = '0'
 })
