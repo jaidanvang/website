@@ -4,4 +4,5 @@ counters.forEach(counter=> {
     counter.innerText = '0'
 
     const updateCounter = +counter.getAttributes
+    
 })
