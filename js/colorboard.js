@@ -7,6 +7,12 @@ for(let i = 0; i < SQUARES; i++) {
     square.classlist.add('square')
     container.appenChild(square)
     square.addEventListener('mouseover', () => setColor(square))
+    square.addEventListener('mouseout', () => removeColor(square))
+}
+
+
+function removeColor(element) {
+    element.style.background = '#1d1d1d'
 }
 
 
