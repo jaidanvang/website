@@ -3,8 +3,18 @@ const counters = document.querySelectorAll('.counter')
 counters.forEach(counter=> {
     counter.innerText = '0'
 
-    const updateCounter = +counter.getAttributes {
-        const target = +counter.getAttribute
+    const updateCounter = () => {
+        const target = +counter.getAttribute('data-target')
+        const c = +counter.innerText
+
+        cost increment = target / 200
+
+        if (c < target) {
+            counter.innerText = '${Math.ceil(c + increment)}'
+
+        }
     }
 
+    updateCounter()
 })
+
