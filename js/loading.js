@@ -1,4 +1,4 @@
-consr bg = document.querySelector('.bg')
+const bg = document.querySelector('.bg')
 const loadText = document.querySelector('.loading-text')
 
 let load = 0
