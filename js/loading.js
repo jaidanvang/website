@@ -13,6 +13,6 @@ function blurring(){
     }
 
 
-    bg.style.filter = "blur(${30 - 0.3*load}px)
+    bg.style.filter = "blur(${30 - 0.3*load}px)"
     loadText.style.opacity = ${1-load/100}
 }
