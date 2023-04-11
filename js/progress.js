@@ -25,26 +25,6 @@ prev.addEventListener('click', () => {
 })
 
 function update(){
-    progress.style.width = (currentActive - 1) / 3 * 100 + '%'
+    progress.style.width = 20+ '%'
 
-    if (currentActive ==1) {
-        prev.disabled = true
-    {
-        else if (currentActive == 4){
-        next.disabled = true
-    }
-    else {
-        prev.disabled = false
-        next.disabled = false
-    }
-
-
-    circles.forEach((circle, index) => {
-        if (index <= currentActive) {
-            circle.classlist.remove('active')
-        }
-        else {
-            circle.classList.remove('active')
-        }
-    })
 }
