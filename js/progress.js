@@ -37,7 +37,7 @@ function update(){
         prev.disabled = false
         next.disabled = false
     }
-    
+
 
     circles.forEach((circle, index) => {
         if (index <= currentActive) {
