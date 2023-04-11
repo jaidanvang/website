@@ -77,19 +77,20 @@ body {
 }
 
 .btn {
-    background-color :var(--blue);
+    background-color: var(--blue);
     color: #ffffff;
     padding : 8px 30px;
     margin: 5px;
     font-size: 14px;
     border:0;
     border-radius: 6px;
+    font-size: 14px;
     cursor: pointer;
     font-family: inherit;
 }
 
 .btn:active {
-    transform : scale (0,98);
+    transform : scale (0.98);
 }
 
 .btn:disabled{
