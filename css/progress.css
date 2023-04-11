@@ -52,7 +52,7 @@ body {
     top: 50%;
     left: 0;
     height:4px;
-    width: 50%;
+    width: 0%;
     z-index: -1;
     transform: translateY(-50%);
     transition: width 0.5;
@@ -77,8 +77,8 @@ body {
 }
 
 .btn {
-    background-color :var(blue);
-    color: white;
+    background-color :var(--blue);
+    color: #ffffff;
     padding : 8px 30px;
     margin: 5px;
     font-size: 14px;
