@@ -11,6 +11,6 @@ panels.forEach(panel => {
 
 function removeActive() {
     panels.forEach(panel => {
-        [anel.classList.remove('active')
+        panel.classList.remove('active')
     })
 }
