@@ -68,7 +68,7 @@ body {
     align-items: center;
     justify-content: center;
     border: 3px solid var(--grey)
-    transition: 0.5s ease;
+
 }
 
 .circle-active {
