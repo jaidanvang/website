@@ -25,6 +25,7 @@ prev.addEventListener('click', () => {
 })
 
 function update(){
-    progress.style.width = 20+ '%'
+    conso
+    progress.style.width = 20+'%'
 
 }
