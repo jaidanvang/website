@@ -3,7 +3,7 @@ const loadText = document.querySelector('.loading-text')
 
 let load = 0
 
-
+let int = setInterval(blurring, 30)
 
 function blurring(){
     load++
@@ -15,7 +15,7 @@ function blurring(){
 
 
 
-    bg.style.filter = 'blur($(px)
-    loadTect.style.opacity = "0.5"
+    bg.style.filter = 'blur(${30 - 0.3*load}px)'
+    loadTect.style.opacity = '${1-load/100}'
 
 }
