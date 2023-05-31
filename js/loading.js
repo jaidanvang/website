@@ -12,10 +12,7 @@ function blurring(){
         clearInterval(int)
     }
 
-
-
-
     bg.style.filter = 'blur(${30 - 0.3*load}px)'
-    loadTect.style.opacity = '${1-load/100}'
+    loadText.style.opacity = '${1-load/100}'
 
 }
